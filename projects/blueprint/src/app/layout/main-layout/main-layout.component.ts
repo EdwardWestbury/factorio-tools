@@ -8,4 +8,4 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './main-layout.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MainLayoutComponent { }
+export class MainLayoutComponent {}

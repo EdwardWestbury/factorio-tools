@@ -6,7 +6,10 @@ import {
   withInMemoryScrolling,
   withRouterConfig,
 } from '@angular/router';
-import { provideEnvironmentInitializer, provideZoneChangeDetection } from '@angular/core';
+import {
+  provideEnvironmentInitializer,
+  provideZoneChangeDetection,
+} from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 export interface CoreOptions {
@@ -31,7 +34,7 @@ export function provideCore({ routes }: CoreOptions) {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideEnvironmentInitializer(() => {
       // kickstart processes, trigger initial requests or actions, ...
-    })
+    }),
 
     // other 3rd party libraries providers like NgRx, provideStore()
 
