@@ -10,7 +10,8 @@
           "standalone": true,
           "changeDetection": "OnPush",
           "style": "css",
-          "displayBlock": true
+          "displayBlock": true,
+          "skipTests": false
         }
       },
       "root": "projects/blueprint",
@@ -96,8 +97,23 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/blueprint/**/*.ts",
+              "projects/blueprint/**/*.html"
+            ],
+            "eslintConfig": "projects/blueprint/eslint.config.js"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "schematicCollections": [
+      "angular-eslint"
+    ]
   }
 }
