@@ -30,6 +30,12 @@ module.exports = tseslint.config(
           style: "kebab-case",
         },
       ],
+      "@typescript-eslint/consistent-type-assertions": [
+        "error",
+        {
+          assertionStyle: "angle-bracket",
+        },
+      ]
     },
   },
   {
