@@ -10,7 +10,14 @@
     "format:test": "prettier --list-different \"./projects/**/*.{ts,html,scss,json}\"",
     "format:write": "prettier --write \"./projects/**/*.{ts,html,scss,json}\"",
     "analyze": "ng build --stats-json --output-hashing none --named-chunks && esbuild-visualizer --template treemap --metadata dist/blueprint/stats.json --filename dist/blueprint/analyze/index.html && http-server -o -c-1 ./dist/blueprint/analyze/",
-    "analyze:sme": "ng build --source-map --output-hashing none --named-chunks && source-map-explorer dist/blueprint/browser/*.js --html dist/blueprint/sme/index.html && http-server -o -c-1 ./dist/blueprint/sme/"
+    "analyze:sme": "ng build --source-map --output-hashing none --named-chunks && source-map-explorer dist/blueprint/browser/*.js --html dist/blueprint/sme/index.html && http-server -o -c-1 ./dist/blueprint/sme/",
+    "analyze:deps": "npm-run-all analyze:deps:*",
+    "analyze:deps:all": "madge projects/blueprint/src/main.ts --ts-config tsconfig.json --image ./deps/blueprint/_all.png",
+    "analyze:deps:ui": "madge  --extensions ts --ts-config tsconfig.json --image ./deps/blueprint/ui.png projects/blueprint/src/app/ui/",
+    "analyze:deps:pattern": "madge  --extensions ts --ts-config tsconfig.json --image ./deps/blueprint/pattern.png projects/blueprint/src/app/pattern/",
+    "analyze:deps:feature": "madge  --extensions ts --ts-config tsconfig.json --image ./deps/blueprint/feature.png projects/blueprint/src/app/feature/",
+    "analyze:deps:layout": "madge  --extensions ts --ts-config tsconfig.json --image ./deps/blueprint/layout.png projects/blueprint/src/app/layout/",
+    "analyze:deps:core": "madge  --extensions ts --ts-config tsconfig.json --image ./deps/blueprint/core.png projects/blueprint/src/app/core/"
   },
   "private": true,
   "dependencies": {
@@ -40,6 +47,8 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "madge": "^8.0.0",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.49",
     "prettier": "^3.4.2",
     "source-map-explorer": "^2.5.3",
