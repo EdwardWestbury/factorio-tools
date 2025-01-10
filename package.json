@@ -43,6 +43,8 @@
     "autoprefixer": "^10.4.20",
     "esbuild-visualizer": "^0.7.0",
     "eslint": "^9.16.0",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-boundaries": "^5.0.1",
     "http-server": "^14.1.1",
     "jasmine-core": "~5.4.0",
     "karma": "~6.4.0",
