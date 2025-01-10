@@ -10,10 +10,7 @@
             "priority": "extra-high",
             "width": 151,
             "height": 146,
-            "shift": [
-              -0.0078125,
-              0.1875
-            ],
+            "shift": [-0.0078125, 0.1875],
             "scale": 0.5
           },
           {
@@ -22,10 +19,7 @@
             "width": 164,
             "height": 74,
             "draw_as_shadow": true,
-            "shift": [
-              0.453125,
-              0.40625
-            ],
+            "shift": [0.453125, 0.40625],
             "scale": 0.5
           }
         ]
@@ -47,10 +41,7 @@
             "priority": "high",
             "width": 239,
             "height": 219,
-            "shift": [
-              0.0234375,
-              0.1796875
-            ],
+            "shift": [0.0234375, 0.1796875],
             "scale": 0.5
           },
           {
@@ -59,10 +50,7 @@
             "width": 227,
             "height": 171,
             "draw_as_shadow": true,
-            "shift": [
-              0.3515625,
-              0.2421875
-            ],
+            "shift": [0.3515625, 0.2421875],
             "scale": 0.5
           }
         ]
@@ -84,10 +72,7 @@
             "priority": "high",
             "width": 171,
             "height": 174,
-            "shift": [
-              -0.0390625,
-              0.0625
-            ],
+            "shift": [-0.0390625, 0.0625],
             "scale": 0.5
           },
           {
@@ -96,10 +81,7 @@
             "width": 277,
             "height": 85,
             "draw_as_shadow": true,
-            "shift": [
-              1.2265625,
-              0.3515625
-            ],
+            "shift": [1.2265625, 0.3515625],
             "scale": 0.5
           }
         ]
@@ -124,10 +106,7 @@
               "scale": 0.5,
               "width": 142,
               "height": 308,
-              "shift": [
-                0.015625,
-                -0.359375
-              ],
+              "shift": [0.015625, -0.359375],
               "line_length": 8,
               "filename": "__quality__/graphics/entity/recycler/recycler-N.png"
             },
@@ -139,10 +118,7 @@
               "scale": 0.5,
               "width": 240,
               "height": 252,
-              "shift": [
-                0.90625,
-                0.0625
-              ],
+              "shift": [0.90625, 0.0625],
               "line_length": 8,
               "filename": "__quality__/graphics/entity/recycler/recycler-N-shadow.png"
             }
@@ -157,10 +133,7 @@
               "scale": 0.5,
               "width": 280,
               "height": 184,
-              "shift": [
-                0.0625,
-                -0.34375
-              ],
+              "shift": [0.0625, -0.34375],
               "line_length": 8,
               "filename": "__quality__/graphics/entity/recycler/recycler-E.png"
             },
@@ -172,10 +145,7 @@
               "scale": 0.5,
               "width": 374,
               "height": 112,
-              "shift": [
-                0.828125,
-                0.25
-              ],
+              "shift": [0.828125, 0.25],
               "line_length": 8,
               "filename": "__quality__/graphics/entity/recycler/recycler-E-shadow.png"
             }
@@ -190,10 +160,7 @@
               "scale": 0.5,
               "width": 142,
               "height": 276,
-              "shift": [
-                -0.015625,
-                -0.09375
-              ],
+              "shift": [-0.015625, -0.09375],
               "line_length": 8,
               "filename": "__quality__/graphics/entity/recycler/recycler-S.png"
             },
@@ -205,10 +172,7 @@
               "scale": 0.5,
               "width": 246,
               "height": 252,
-              "shift": [
-                0.828125,
-                0.21875
-              ],
+              "shift": [0.828125, 0.21875],
               "line_length": 8,
               "filename": "__quality__/graphics/entity/recycler/recycler-S-shadow.png"
             }
@@ -223,10 +187,7 @@
               "scale": 0.5,
               "width": 260,
               "height": 172,
-              "shift": [
-                -0.03125,
-                -0.25
-              ],
+              "shift": [-0.03125, -0.25],
               "line_length": 8,
               "filename": "__quality__/graphics/entity/recycler/recycler-W.png"
             },
@@ -238,10 +199,7 @@
               "scale": 0.5,
               "width": 314,
               "height": 116,
-              "shift": [
-                0.515625,
-                0.28125
-              ],
+              "shift": [0.515625, 0.28125],
               "line_length": 8,
               "filename": "__quality__/graphics/entity/recycler/recycler-W-shadow.png"
             }
@@ -323,10 +281,7 @@
         "priority": "extra-high",
         "width": 105,
         "height": 79,
-        "shift": [
-          0.046875,
-          0.203125
-        ],
+        "shift": [0.046875, 0.203125],
         "scale": 0.5
       }
     },
@@ -372,10 +327,7 @@
         "priority": "extra-high",
         "width": 105,
         "height": 79,
-        "shift": [
-          0.046875,
-          0.203125
-        ],
+        "shift": [0.046875, 0.203125],
         "scale": 0.5
       }
     },
@@ -421,10 +373,7 @@
         "priority": "extra-high",
         "width": 105,
         "height": 79,
-        "shift": [
-          0.046875,
-          0.203125
-        ],
+        "shift": [0.046875, 0.203125],
         "scale": 0.5
       }
     },
@@ -470,10 +419,7 @@
         "priority": "extra-high",
         "width": 105,
         "height": 79,
-        "shift": [
-          0.046875,
-          0.203125
-        ],
+        "shift": [0.046875, 0.203125],
         "scale": 0.5
       }
     },
@@ -519,10 +465,7 @@
         "priority": "extra-high",
         "width": 105,
         "height": 79,
-        "shift": [
-          0.046875,
-          0.203125
-        ],
+        "shift": [0.046875, 0.203125],
         "scale": 0.5
       }
     },
@@ -568,10 +511,7 @@
         "priority": "extra-high",
         "width": 105,
         "height": 79,
-        "shift": [
-          0.046875,
-          0.203125
-        ],
+        "shift": [0.046875, 0.203125],
         "scale": 0.5
       }
     },
