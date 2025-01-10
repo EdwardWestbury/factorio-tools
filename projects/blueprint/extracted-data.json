@@ -1,0 +1,583 @@
+[
+  {
+    "name": "stone-furnace",
+    "icon": "__base__/graphics/icons/stone-furnace.png",
+    "graphics_set": {
+      "animation": {
+        "layers": [
+          {
+            "filename": "__base__/graphics/entity/stone-furnace/stone-furnace.png",
+            "priority": "extra-high",
+            "width": 151,
+            "height": 146,
+            "shift": [
+              -0.0078125,
+              0.1875
+            ],
+            "scale": 0.5
+          },
+          {
+            "filename": "__base__/graphics/entity/stone-furnace/stone-furnace-shadow.png",
+            "priority": "extra-high",
+            "width": 164,
+            "height": 74,
+            "draw_as_shadow": true,
+            "shift": [
+              0.453125,
+              0.40625
+            ],
+            "scale": 0.5
+          }
+        ]
+      }
+    },
+    "dimensions": {
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "name": "electric-furnace",
+    "icon": "__base__/graphics/icons/electric-furnace.png",
+    "graphics_set": {
+      "animation": {
+        "layers": [
+          {
+            "filename": "__base__/graphics/entity/electric-furnace/electric-furnace.png",
+            "priority": "high",
+            "width": 239,
+            "height": 219,
+            "shift": [
+              0.0234375,
+              0.1796875
+            ],
+            "scale": 0.5
+          },
+          {
+            "filename": "__base__/graphics/entity/electric-furnace/electric-furnace-shadow.png",
+            "priority": "high",
+            "width": 227,
+            "height": 171,
+            "draw_as_shadow": true,
+            "shift": [
+              0.3515625,
+              0.2421875
+            ],
+            "scale": 0.5
+          }
+        ]
+      }
+    },
+    "dimensions": {
+      "width": 3,
+      "height": 3
+    }
+  },
+  {
+    "name": "steel-furnace",
+    "icon": "__base__/graphics/icons/steel-furnace.png",
+    "graphics_set": {
+      "animation": {
+        "layers": [
+          {
+            "filename": "__base__/graphics/entity/steel-furnace/steel-furnace.png",
+            "priority": "high",
+            "width": 171,
+            "height": 174,
+            "shift": [
+              -0.0390625,
+              0.0625
+            ],
+            "scale": 0.5
+          },
+          {
+            "filename": "__base__/graphics/entity/steel-furnace/steel-furnace-shadow.png",
+            "priority": "high",
+            "width": 277,
+            "height": 85,
+            "draw_as_shadow": true,
+            "shift": [
+              1.2265625,
+              0.3515625
+            ],
+            "scale": 0.5
+          }
+        ]
+      }
+    },
+    "dimensions": {
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "name": "recycler",
+    "icon": "__quality__/graphics/icons/recycler.png",
+    "graphics_set": {
+      "animation": {
+        "north": {
+          "layers": [
+            {
+              "priority": "high",
+              "frame_count": 64,
+              "animation_speed": 4,
+              "scale": 0.5,
+              "width": 142,
+              "height": 308,
+              "shift": [
+                0.015625,
+                -0.359375
+              ],
+              "line_length": 8,
+              "filename": "__quality__/graphics/entity/recycler/recycler-N.png"
+            },
+            {
+              "draw_as_shadow": true,
+              "priority": "high",
+              "frame_count": 64,
+              "animation_speed": 4,
+              "scale": 0.5,
+              "width": 240,
+              "height": 252,
+              "shift": [
+                0.90625,
+                0.0625
+              ],
+              "line_length": 8,
+              "filename": "__quality__/graphics/entity/recycler/recycler-N-shadow.png"
+            }
+          ]
+        },
+        "east": {
+          "layers": [
+            {
+              "priority": "high",
+              "frame_count": 64,
+              "animation_speed": 4,
+              "scale": 0.5,
+              "width": 280,
+              "height": 184,
+              "shift": [
+                0.0625,
+                -0.34375
+              ],
+              "line_length": 8,
+              "filename": "__quality__/graphics/entity/recycler/recycler-E.png"
+            },
+            {
+              "draw_as_shadow": true,
+              "priority": "high",
+              "frame_count": 64,
+              "animation_speed": 4,
+              "scale": 0.5,
+              "width": 374,
+              "height": 112,
+              "shift": [
+                0.828125,
+                0.25
+              ],
+              "line_length": 8,
+              "filename": "__quality__/graphics/entity/recycler/recycler-E-shadow.png"
+            }
+          ]
+        },
+        "south": {
+          "layers": [
+            {
+              "priority": "high",
+              "frame_count": 64,
+              "animation_speed": 4,
+              "scale": 0.5,
+              "width": 142,
+              "height": 276,
+              "shift": [
+                -0.015625,
+                -0.09375
+              ],
+              "line_length": 8,
+              "filename": "__quality__/graphics/entity/recycler/recycler-S.png"
+            },
+            {
+              "draw_as_shadow": true,
+              "priority": "high",
+              "frame_count": 64,
+              "animation_speed": 4,
+              "scale": 0.5,
+              "width": 246,
+              "height": 252,
+              "shift": [
+                0.828125,
+                0.21875
+              ],
+              "line_length": 8,
+              "filename": "__quality__/graphics/entity/recycler/recycler-S-shadow.png"
+            }
+          ]
+        },
+        "west": {
+          "layers": [
+            {
+              "priority": "high",
+              "frame_count": 64,
+              "animation_speed": 4,
+              "scale": 0.5,
+              "width": 260,
+              "height": 172,
+              "shift": [
+                -0.03125,
+                -0.25
+              ],
+              "line_length": 8,
+              "filename": "__quality__/graphics/entity/recycler/recycler-W.png"
+            },
+            {
+              "draw_as_shadow": true,
+              "priority": "high",
+              "frame_count": 64,
+              "animation_speed": 4,
+              "scale": 0.5,
+              "width": 314,
+              "height": 116,
+              "shift": [
+                0.515625,
+                0.28125
+              ],
+              "line_length": 8,
+              "filename": "__quality__/graphics/entity/recycler/recycler-W-shadow.png"
+            }
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "width": 2,
+      "height": 4
+    }
+  },
+  {
+    "name": "small-electric-pole",
+    "icon": "__base__/graphics/icons/small-electric-pole.png",
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    }
+  },
+  {
+    "name": "big-electric-pole",
+    "icon": "__base__/graphics/icons/big-electric-pole.png",
+    "dimensions": {
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "name": "medium-electric-pole",
+    "icon": "__base__/graphics/icons/medium-electric-pole.png",
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    }
+  },
+  {
+    "name": "substation",
+    "icon": "__base__/graphics/icons/substation.png",
+    "dimensions": {
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "name": "inserter",
+    "icon": "__base__/graphics/icons/inserter.png",
+    "hand_base_picture": {
+      "filename": "__base__/graphics/entity/inserter/inserter-hand-base.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 136,
+      "scale": 0.25
+    },
+    "hand_open_picture": {
+      "filename": "__base__/graphics/entity/inserter/inserter-hand-open.png",
+      "priority": "extra-high",
+      "width": 72,
+      "height": 164,
+      "scale": 0.25
+    },
+    "hand_base_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 132,
+      "scale": 0.25
+    },
+    "hand_open_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      "priority": "extra-high",
+      "width": 72,
+      "height": 164,
+      "scale": 0.25
+    },
+    "platform_picture": {
+      "sheet": {
+        "filename": "__base__/graphics/entity/inserter/inserter-platform.png",
+        "priority": "extra-high",
+        "width": 105,
+        "height": 79,
+        "shift": [
+          0.046875,
+          0.203125
+        ],
+        "scale": 0.5
+      }
+    },
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    }
+  },
+  {
+    "name": "fast-inserter",
+    "icon": "__base__/graphics/icons/fast-inserter.png",
+    "hand_base_picture": {
+      "filename": "__base__/graphics/entity/fast-inserter/fast-inserter-hand-base.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 136,
+      "scale": 0.25
+    },
+    "hand_open_picture": {
+      "filename": "__base__/graphics/entity/fast-inserter/fast-inserter-hand-open.png",
+      "priority": "extra-high",
+      "width": 72,
+      "height": 164,
+      "scale": 0.25
+    },
+    "hand_base_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 132,
+      "scale": 0.25
+    },
+    "hand_open_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      "priority": "extra-high",
+      "width": 72,
+      "height": 164,
+      "scale": 0.25
+    },
+    "platform_picture": {
+      "sheet": {
+        "filename": "__base__/graphics/entity/fast-inserter/fast-inserter-platform.png",
+        "priority": "extra-high",
+        "width": 105,
+        "height": 79,
+        "shift": [
+          0.046875,
+          0.203125
+        ],
+        "scale": 0.5
+      }
+    },
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    }
+  },
+  {
+    "name": "long-handed-inserter",
+    "icon": "__base__/graphics/icons/long-handed-inserter.png",
+    "hand_base_picture": {
+      "filename": "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-base.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 136,
+      "scale": 0.25
+    },
+    "hand_open_picture": {
+      "filename": "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-open.png",
+      "priority": "extra-high",
+      "width": 72,
+      "height": 164,
+      "scale": 0.25
+    },
+    "hand_base_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 132,
+      "scale": 0.25
+    },
+    "hand_open_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      "priority": "extra-high",
+      "width": 72,
+      "height": 164,
+      "scale": 0.25
+    },
+    "platform_picture": {
+      "sheet": {
+        "filename": "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-platform.png",
+        "priority": "extra-high",
+        "width": 105,
+        "height": 79,
+        "shift": [
+          0.046875,
+          0.203125
+        ],
+        "scale": 0.5
+      }
+    },
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    }
+  },
+  {
+    "name": "burner-inserter",
+    "icon": "__base__/graphics/icons/burner-inserter.png",
+    "hand_base_picture": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 136,
+      "scale": 0.25
+    },
+    "hand_open_picture": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open.png",
+      "priority": "extra-high",
+      "width": 72,
+      "height": 164,
+      "scale": 0.25
+    },
+    "hand_base_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 132,
+      "scale": 0.25
+    },
+    "hand_open_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      "priority": "extra-high",
+      "width": 72,
+      "height": 164,
+      "scale": 0.25
+    },
+    "platform_picture": {
+      "sheet": {
+        "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-platform.png",
+        "priority": "extra-high",
+        "width": 105,
+        "height": 79,
+        "shift": [
+          0.046875,
+          0.203125
+        ],
+        "scale": 0.5
+      }
+    },
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    }
+  },
+  {
+    "name": "bulk-inserter",
+    "icon": "__base__/graphics/icons/bulk-inserter.png",
+    "hand_base_picture": {
+      "filename": "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-base.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 136,
+      "scale": 0.25
+    },
+    "hand_open_picture": {
+      "filename": "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-open.png",
+      "priority": "extra-high",
+      "width": 130,
+      "height": 164,
+      "scale": 0.25
+    },
+    "hand_base_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 132,
+      "scale": 0.25
+    },
+    "hand_open_shadow": {
+      "filename": "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-open-shadow.png",
+      "priority": "extra-high",
+      "width": 130,
+      "height": 164,
+      "scale": 0.25
+    },
+    "platform_picture": {
+      "sheet": {
+        "filename": "__base__/graphics/entity/bulk-inserter/bulk-inserter-platform.png",
+        "priority": "extra-high",
+        "width": 105,
+        "height": 79,
+        "shift": [
+          0.046875,
+          0.203125
+        ],
+        "scale": 0.5
+      }
+    },
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    }
+  },
+  {
+    "name": "stack-inserter",
+    "icon": "__space-age__/graphics/icons/stack-inserter.png",
+    "hand_base_picture": {
+      "filename": "__space-age__/graphics/entity/stack-inserter/stack-inserter-hand-base.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 136,
+      "scale": 0.25
+    },
+    "hand_open_picture": {
+      "filename": "__space-age__/graphics/entity/stack-inserter/stack-inserter-hand-open.png",
+      "priority": "extra-high",
+      "width": 134,
+      "height": 164,
+      "scale": 0.25
+    },
+    "hand_base_shadow": {
+      "filename": "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      "priority": "extra-high",
+      "width": 32,
+      "height": 132,
+      "scale": 0.25
+    },
+    "hand_open_shadow": {
+      "filename": "__space-age__/graphics/entity/stack-inserter/stack-inserter-hand-open-shadow.png",
+      "priority": "extra-high",
+      "width": 134,
+      "height": 164,
+      "scale": 0.25
+    },
+    "platform_picture": {
+      "sheet": {
+        "filename": "__space-age__/graphics/entity/stack-inserter/stack-inserter-platform.png",
+        "priority": "extra-high",
+        "width": 105,
+        "height": 79,
+        "shift": [
+          0.046875,
+          0.203125
+        ],
+        "scale": 0.5
+      }
+    },
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    }
+  }
+]
