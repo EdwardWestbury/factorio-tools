@@ -1,0 +1,13 @@
+<textarea rows="5" cols="30" pTextarea [(ngModel)]="blueprintString"></textarea>
+
+<br />
+
+<p>
+  {{ blueprintVersion() }}
+</p>
+
+<br />
+
+<pre class="max-w-md max-h-96 bg-slate-100 border border-gray-400 rounded-md overflow-auto p-3">
+  {{ parsedBlueprint() | json }}
+</pre>
