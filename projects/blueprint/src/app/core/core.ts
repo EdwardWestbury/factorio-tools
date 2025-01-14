@@ -11,6 +11,8 @@ import {
   provideZoneChangeDetection,
 } from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { providePrimeNG } from 'primeng/config';
+import Aura from '@primeng/themes/aura';
 
 export interface CoreOptions {
   routes: Routes;
@@ -35,6 +37,11 @@ export function provideCore({ routes }: CoreOptions) {
     provideEnvironmentInitializer(() => {
       // kickstart processes, trigger initial requests or actions, ...
     }),
+    providePrimeNG({
+      theme: {
+          preset: Aura
+      }
+  })
 
     // other 3rd party libraries providers like NgRx, provideStore()
 
